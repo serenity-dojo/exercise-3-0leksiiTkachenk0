@@ -16,5 +16,4 @@ public class CreatingDogClass {
         System.out.println(fido.getFavoriteToy());
         System.out.println(fido.getAge());
     }
-
 }
