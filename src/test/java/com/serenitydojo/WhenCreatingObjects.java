@@ -12,6 +12,4 @@ public class WhenCreatingObjects {
         Assert.assertEquals(fido.getFavoriteToy(), "Bone");
         Assert.assertEquals(fido.getAge(), 5);
     }
-    // hello
-    // comment
 }
