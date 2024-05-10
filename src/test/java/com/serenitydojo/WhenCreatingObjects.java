@@ -13,3 +13,5 @@ public class WhenCreatingObjects {
         Assert.assertEquals(fido.getAge(), 5);
     }
 }
+
+//...
