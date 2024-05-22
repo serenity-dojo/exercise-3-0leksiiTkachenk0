@@ -12,4 +12,17 @@ public class WhenCreatingObjects {
         Assert.assertEquals(fido.getFavoriteToy(), "Bone");
         Assert.assertEquals(fido.getAge(), 5);
     }
+
+    @Test
+    public void dog_makes_noise() {
+        Dog fido = new Dog("Fido", "Bone", 5);
+
+        fido.makeNoise();
+    }
+
+    @Test
+    public void dog_is_fed() {
+        Dog fido = new Dog("Fido", "Bone", 5);
+        fido.feed();
+    }
 }
